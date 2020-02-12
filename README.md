@@ -1,2 +1,1 @@
-# w
-webpages
+This project is for saving webpages lsc will create.
