@@ -1,1 +1,1 @@
-This project is for saving webpages lsc will create.
+This project is for saving webpages bddx will create.
