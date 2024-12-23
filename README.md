@@ -1,1 +1,2 @@
-This project is for saving webpages bddx will create.
+## About
+This project is for holding webpages, e.g resume, activity, more.
