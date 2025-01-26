@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Resume</title>
+    <style>
+        body {font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333;}
+        .navbar {background-color: #2c3e50; overflow: hidden;}
+        .navbar a {float: left; display: block; color: white; text-align: center; padding: 14px 20px; text-decoration: none;}
+        .navbar a:hover {background-color: #576574;}
+        .content {padding: 20px;}
+        h1, h2 {color: #2c3e50;}
+        .section {margin-bottom: 30px;}
+        footer {text-align: center; padding: 10px; background-color: #2c3e50; color: white;}
+    </style>
+</head>
+<body>
+<header>
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+        <a href="#skills">Skills</a>
+    </div>
+</header>
+
+<div class="content">
+    <section id="home" class="section">
+        <h1>test</h1>
+        <p>Frontend Developer | Expert in HTML/CSS/JavaScript</p>
+    </section>
+    
+    <section id="education" class="section">
+        <h2>Education</h2>
+        <p>xxxx University - Bachelor of Science in Computer Science (2015-2019)</p>
+    </section>
+    
+    <section id="projects" class="section">
+        <h2>Notable Projects</h2>
+        <ul>
+            <li>Project A - Developed an online shopping website.</li>
+            <li>Project B - Designed and implemented an internal management system for the company.</li>
+        </ul>
+    </section>
+    
+    <section id="experience" class="section">
+        <h2>Professional Experience</h2>
+        <p>xxxx Inc. - Frontend Developer (2019-Present)</p>
+    </section>
+    
+    <section id="contact" class="section">
+        <h2>Contact Information</h2>
+        <p>Email: xxxx@example.com</p>
+    </section>
+    
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <p>Proficient in HTML, CSS, JavaScript. Familiar with React.js and Vue.js frameworks.</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 test All Rights Reserved</p>
+</footer>
+
+<script>
+document.querySelectorAll('.navbar a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+</script>
+</body>
+</html>
